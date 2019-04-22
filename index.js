@@ -24,7 +24,7 @@ global.db.query = util.promisify(global.db.query);
                         first_name: 'Alex',
                         last_name: 'Matiash',
                         age: 21,
-                        gender: 'F'
+                        gender: 'M'
                 };
                 await createUser.save();
         })();
